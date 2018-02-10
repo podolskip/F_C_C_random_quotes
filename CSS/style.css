@@ -1,0 +1,29 @@
+
+
+#cameraPic {
+    width:500px;
+    height:400px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:-1;
+
+}
+
+#displayQuote {
+    position: absolute;
+    top: 63%;
+    left:44%;
+    transform: translate(-50%,-50%);
+    z-index:9999;
+    color:red;
+    border: 1px solid red;
+    height:200px;
+    width:250px
+
+}
+
+#camBackground{
+    height:100vh;
+}
